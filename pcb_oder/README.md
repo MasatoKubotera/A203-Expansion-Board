@@ -125,10 +125,10 @@
                     <td>Crystal 12Hz ±30ppm 12pF SMD 3225-4P</td>
                 </tr>
                 <tr>
-                    <td><img src="https://assets.lcsc.com/images/lcsc/900x900/20181106_Omron-Electronics-XF2M-2015-1A-BY-OMZ_C231415_front.jpg" width="100px"></td>
+                    <td><img src="https://assets.lcsc.com/images/lcsc/900x900/20221230_Omron-Electronics-XF2M-2015-1A_C57541_front.jpg" width="100px"></td>
                     <td>CH1</td>
-                    <td>XF2M-2015-1A BY OMZ</td>
-                    <td><a href="https://jlcpcb.com/partdetail/OmronElectronics-XF2M_2015_1A_BYOMZ/C231415">C231415</a></td>
+                    <td>XF2M-2015-1A</td>
+                    <td><a href="https://jlcpcb.com/partdetail/OmronElectronics-XF2M_20151A/C57541">C57541</a></td>
                     <td>Omron Electronics</td>
                     <td>FFC/FPC Connector SMD　20-pin 0.5mm Pitch Double-sided</td>
                 </tr>
