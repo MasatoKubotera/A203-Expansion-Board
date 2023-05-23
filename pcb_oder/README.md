@@ -213,50 +213,45 @@
                     <td>Thick Film Resistor SMD 10kΩ 1/10W ±1% 0603</td>
                 </tr>
             </table>
-            The following components were not installed by PCBA due to availability.
+            The following components are not handled by JLCPCB and could not be attached by PCBA.
             <table>
                 <tr>
-                    <th>Part Image</th>
                     <th>Top Designator</th>
                     <th>MFR.Part #</th>
-                    <th>JLCPCB Part #</th>
+                    <th>Distributor / Part #</th>
                     <th>Manufacturer</th>
                     <th>Part Detail</th>
                 </tr>
                 <tr>
-                    <td><img src="https://jlcpcb.com/ssr/img/img-empty.29365da.png" width="100px"></td>
                     <td>CH2</td>
                     <td>HIF3FC-14PA-2.54DS(71)</td>
-                    <td><a href=""></a></td>
-                    <td></td>
-                    <td></td>
+                    <td><a href="https://www.mouser.jp/ProductDetail/798-HIF3FC14PA254DS1">Mouser / 798-HIF3FC14PA254DS1</a></td>
+                    <td><a href="https://www.hirose.com/en/product/p/CL0616-0062-2-71">Hirose Connector</a></td>
+                    <td>Low Profile Connector 2.54mm-pitch 14-pin</td>
                 </tr>
                 <tr>
-                    <td><img src="https://jlcpcb.com/ssr/img/img-empty.29365da.png" width="100px"></td>
                     <td>USB2, USB3</td>
                     <td>USB1046-GF-0190-L-B-A</td>
                     <td><a href="https://www.mouser.jp/ProductDetail/640-USB1046GF0190LBA">Mouser / 640-USB1046GF0190LBA</a></td>
-                    <td></td>
-                    <td></td>
+                    <td>GCT</td>
+                    <td>USB Connectors SMD USB2.0 Type-A Top Mount</td>
                 </tr>            
             </table>
-            The following components were not installed for option.
+            The following components were not attached due to being optional components to be attached to the bottom surface.
             <table>
                 <tr>
-                    <th>Part Image</th>
                     <th>Top Designator</th>
                     <th>MFR.Part #</th>
-                    <th>JLCPCB Part #</th>
+                    <th>Distributor / Part #</th>
                     <th>Manufacturer</th>
                     <th>Part Detail</th>
                 </tr>
                 <tr>
-                    <td><img src="https://jlcpcb.com/ssr/img/img-empty.29365da.png" width="100px"></td>
                     <td>USB1</td>
                     <td>MUSB-5B-NE-S175</td>
                     <td><a href="https://akizukidenshi.com/catalog/g/gC-05843/">Akizuki / C-05843</a></td>
-                    <td></td>
-                    <td></td>
+                    <td>Useconn Electronics Ltd.</td>
+                    <td>USB Connectors SMD USB2.0 Mini-B Top Mount</td>
                 </tr>           
             </table>
             These selected parts are listed in <a href="bom.xls">bom.xls</a>.<br>
