@@ -3,12 +3,12 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -28,11 +28,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -327,7 +327,7 @@ IMU Module</text>
 <text x="19.685" y="-12.065" size="1.27" layer="22" rot="MR180" align="center">A203 V2 Expansion Board
 Rev. 1
 Designed by Masato Kubotera
-on May 22, 2023.</text>
+on May 31, 2023.</text>
 <rectangle x1="6.35" y1="-22.86" x2="19.05" y2="-19.05" layer="22"/>
 <text x="12.7" y="-17.78" size="1.27" layer="22" rot="MR0" align="center">Serial No.</text>
 <text x="26.67" y="-17.78" size="1.27" layer="22" rot="MR0" align="center">Production Date</text>
@@ -3106,15 +3106,13 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="-12.7635" y1="20.5105" x2="-13.589" y2="19.685" width="0.127" layer="1"/>
 <wire x1="-12.7635" y1="21.3995" x2="-12.7635" y2="20.5105" width="0.127" layer="1"/>
 <wire x1="-9.9695" y1="24.1935" x2="-12.7635" y2="21.3995" width="0.127" layer="1"/>
-<wire x1="-6.477" y1="24.1935" x2="-6.4987875" y2="24.1935" width="0.127" layer="1"/>
-<wire x1="-6.4987875" y1="24.1935" x2="-9.9695" y2="24.1935" width="0.127" layer="1"/>
+<wire x1="-4.4350375" y1="24.1935" x2="-9.9695" y2="24.1935" width="0.127" layer="1"/>
 <wire x1="-1.397" y1="30.5435" x2="-1.3752125" y2="30.5435" width="0.127" layer="1"/>
 <wire x1="-1.3752125" y1="30.5435" x2="4.445" y2="30.5435" width="0.127" layer="1"/>
 <wire x1="5.7785" y1="29.21" x2="4.445" y2="30.5435" width="0.127" layer="1"/>
 <wire x1="5.7785" y1="27.4955" x2="5.7785" y2="29.21" width="0.127" layer="1"/>
 <wire x1="6.985" y1="26.289" x2="5.7785" y2="27.4955" width="0.127" layer="1"/>
 <wire x1="6.985" y1="26.289" x2="6.985" y2="26.28" width="0.127" layer="1"/>
-<wire x1="-6.477" y1="24.1935" x2="-4.4350375" y2="24.1935" width="0.127" layer="1"/>
 <wire x1="-2.3335" y1="29.5852125" x2="-1.3752125" y2="30.5435" width="0.127" layer="1"/>
 <wire x1="-4.4350375" y1="24.1935" x2="-2.3335" y2="26.2950375" width="0.127" layer="1"/>
 <wire x1="-2.3335" y1="26.2950375" x2="-2.3335" y2="29.5852125" width="0.127" layer="1"/>
@@ -3662,9 +3660,51 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </signal>
 <signal name="USBDN-DP3">
 <contactref element="IC1" pad="7"/>
+<contactref element="M2" pad="USB-DP"/>
+<wire x1="16.35125" y1="5.715" x2="18.0975" y2="5.715" width="0.127" layer="1"/>
+<wire x1="9.525" y1="5.715" x2="16.35125" y2="5.715" width="0.127" layer="16"/>
+<wire x1="9.525" y1="0.635" x2="9.525" y2="5.715" width="0.127" layer="1"/>
+<wire x1="10.00125" y1="0.15875" x2="9.525" y2="0.635" width="0.127" layer="1"/>
+<wire x1="5.23875" y1="-4.60375" x2="10.00125" y2="0.15875" width="0.127" layer="16"/>
+<wire x1="6.985" y1="-6.35" x2="5.23875" y2="-4.60375" width="0.127" layer="16"/>
+<wire x1="6.985" y1="-6.6675" x2="6.985" y2="-6.35" width="0.127" layer="16"/>
+<wire x1="7.14375" y1="-6.82625" x2="6.985" y2="-6.6675" width="0.127" layer="16"/>
+<wire x1="7.14375" y1="-7.14375" x2="7.14375" y2="-6.82625" width="0.127" layer="16"/>
+<wire x1="6.6675" y1="-7.62" x2="7.14375" y2="-7.14375" width="0.127" layer="16"/>
+<wire x1="6.19125" y1="-7.14375" x2="6.6675" y2="-7.62" width="0.127" layer="16"/>
+<wire x1="6.19125" y1="-6.50875" x2="6.19125" y2="-7.14375" width="0.127" layer="16"/>
+<wire x1="4.60375" y1="-4.92125" x2="6.19125" y2="-6.50875" width="0.127" layer="16"/>
+<wire x1="-17.4625" y1="-4.92125" x2="4.60375" y2="-4.92125" width="0.127" layer="16"/>
+<wire x1="-21.11375" y1="-1.27" x2="-17.4625" y2="-4.92125" width="0.127" layer="16"/>
+<wire x1="-28.575" y1="-1.27" x2="-21.11375" y2="-1.27" width="0.127" layer="16"/>
+<wire x1="-37.465" y1="7.62" x2="-28.575" y2="-1.27" width="0.127" layer="16"/>
+<wire x1="18.0975" y1="5.715" x2="18.243" y2="5.7175" width="0.127" layer="1"/>
+<via x="16.35125" y="5.715" extent="1-16" drill="0.3"/>
+<via x="9.525" y="5.715" extent="1-16" drill="0.3"/>
+<via x="10.00125" y="0.15875" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="USBDN-DM3">
 <contactref element="IC1" pad="6"/>
+<contactref element="M2" pad="USB-DM"/>
+<wire x1="19.05" y1="6.50875" x2="18.25625" y2="6.50875" width="0.127" layer="1"/>
+<wire x1="19.685" y1="7.14375" x2="19.05" y2="6.50875" width="0.127" layer="1"/>
+<wire x1="19.685" y1="8.89" x2="19.685" y2="7.14375" width="0.127" layer="1"/>
+<wire x1="22.38375" y1="11.58875" x2="19.685" y2="8.89" width="0.127" layer="1"/>
+<wire x1="25.24125" y1="11.58875" x2="22.38375" y2="11.58875" width="0.127" layer="1"/>
+<wire x1="26.19375" y1="12.54125" x2="25.24125" y2="11.58875" width="0.127" layer="1"/>
+<wire x1="26.19375" y1="14.44625" x2="26.19375" y2="12.54125" width="0.127" layer="16"/>
+<wire x1="22.70125" y1="17.93875" x2="26.19375" y2="14.44625" width="0.127" layer="16"/>
+<wire x1="22.70125" y1="23.1775" x2="22.70125" y2="17.93875" width="0.127" layer="16"/>
+<wire x1="13.49375" y1="32.385" x2="22.70125" y2="23.1775" width="0.127" layer="16"/>
+<wire x1="-8.09625" y1="32.385" x2="13.49375" y2="32.385" width="0.127" layer="1"/>
+<wire x1="-9.68375" y1="33.9725" x2="-8.09625" y2="32.385" width="0.127" layer="1"/>
+<wire x1="-26.19375" y1="33.9725" x2="-9.68375" y2="33.9725" width="0.127" layer="1"/>
+<wire x1="-39.37" y1="20.79625" x2="-26.19375" y2="33.9725" width="0.127" layer="1"/>
+<wire x1="-39.37" y1="6.985" x2="-39.37" y2="20.79625" width="0.127" layer="1"/>
+<wire x1="-37.465" y1="5.08" x2="-39.37" y2="6.985" width="0.127" layer="1"/>
+<wire x1="18.25625" y1="6.50875" x2="18.243" y2="6.3575" width="0.127" layer="1"/>
+<via x="26.19375" y="12.54125" extent="1-16" drill="0.3"/>
+<via x="13.49375" y="32.385" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="LED-UB" class="3">
 <contactref element="R1" pad="1"/>
@@ -3718,12 +3758,6 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="36.7665" y1="-9.525" x2="36.6395" y2="-9.4615" width="0.381" layer="16"/>
 <via x="37.11575" y="-5.715" extent="1-16" drill="0.3"/>
 <via x="37.5285" y="-9.525" extent="1-16" drill="0.3"/>
-</signal>
-<signal name="USB-DN-DP3">
-<contactref element="M2" pad="USB-DP"/>
-</signal>
-<signal name="USB-DN-DM3">
-<contactref element="M2" pad="USB-DM"/>
 </signal>
 <signal name="USB3.0_SSRX_P">
 <contactref element="CH1" pad="6"/>

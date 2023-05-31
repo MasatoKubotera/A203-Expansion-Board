@@ -11435,7 +11435,7 @@ to the Core Board</text>
 <wire x1="203.2" y1="134.62" x2="287.02" y2="134.62" width="0.1524" layer="97" style="longdash"/>
 <text x="391.16" y="15.24" size="5.08" layer="94" ratio="10" align="center-left">1</text>
 <text x="396.24" y="5.08" size="5.08" layer="94" ratio="10" align="center-left">1/1</text>
-<text x="307.34" y="5.08" size="5.08" layer="94" ratio="10" align="center-left">May 22, 2023</text>
+<text x="307.34" y="5.08" size="5.08" layer="94" ratio="10" align="center-left">May 31, 2023</text>
 <text x="307.34" y="25.4" size="5.08" layer="94" ratio="10" align="center-left">A203 V2 Expansion Board</text>
 <text x="287.02" y="167.64" size="1.778" layer="97" ratio="10" rot="R90" align="center">Hub Active/Suspend Indicator</text>
 <text x="271.78" y="154.94" size="1.778" layer="97" ratio="10" rot="R90" align="center">Port 1 Indicator</text>
@@ -11995,20 +11995,6 @@ to the Core Board</text>
 <wire x1="256.54" y1="226.06" x2="241.3" y2="226.06" width="0.1524" layer="91"/>
 <label x="241.3" y="226.06" size="1.778" layer="95" rot="R180"/>
 <pinref part="IC1" gate="G$1" pin="DP1"/>
-</segment>
-</net>
-<net name="USB-DN-DP3" class="0">
-<segment>
-<wire x1="335.28" y1="99.06" x2="330.2" y2="99.06" width="0.1524" layer="91"/>
-<label x="330.2" y="99.06" size="1.778" layer="95" rot="R180"/>
-<pinref part="M2" gate="G$1" pin="USB-DP"/>
-</segment>
-</net>
-<net name="USB-DN-DM3" class="0">
-<segment>
-<wire x1="335.28" y1="101.6" x2="330.2" y2="101.6" width="0.1524" layer="91"/>
-<label x="330.2" y="101.6" size="1.778" layer="95" rot="R180"/>
-<pinref part="M2" gate="G$1" pin="USB-DM"/>
 </segment>
 </net>
 <net name="USBDN-DP2" class="0">
@@ -13263,12 +13249,22 @@ to the Core Board</text>
 <label x="241.3" y="236.22" size="1.778" layer="95" rot="R180"/>
 <pinref part="IC1" gate="G$1" pin="DP3"/>
 </segment>
+<segment>
+<wire x1="335.28" y1="99.06" x2="330.2" y2="99.06" width="0.1524" layer="91"/>
+<label x="330.2" y="99.06" size="1.778" layer="95" rot="R180"/>
+<pinref part="M2" gate="G$1" pin="USB-DP"/>
+</segment>
 </net>
 <net name="USBDN-DM3" class="0">
 <segment>
 <wire x1="256.54" y1="238.76" x2="241.3" y2="238.76" width="0.1524" layer="91"/>
 <label x="241.3" y="238.76" size="1.778" layer="95" rot="R180"/>
 <pinref part="IC1" gate="G$1" pin="DM3"/>
+</segment>
+<segment>
+<wire x1="335.28" y1="101.6" x2="330.2" y2="101.6" width="0.1524" layer="91"/>
+<label x="330.2" y="101.6" size="1.778" layer="95" rot="R180"/>
+<pinref part="M2" gate="G$1" pin="USB-DM"/>
 </segment>
 </net>
 <net name="LED2" class="3">
