@@ -79,8 +79,8 @@
             </table>
             The following files used to order the PCBA and their specifications.
             <ul>
-                <li>BOM File: <a href="_top_bom.csv">_top_bom.csv</a></li>
-                <li>CPL File: <a href="_top_cpl.csv">_top_cpl.csv</a></li>
+                <li>BOM File: <a href="A203-V2-Expansion-Board_top_bom.csv">A203-V2-Expansion-Board_top_bom.csv</a></li>
+                <li>CPL File: <a href="A203-V2-Expansion-Board_top_cpl.csv">A203-V2-Expansion-Board_top_cpl.csv</a></li>
             </ul>
             The following components were installed by PCBA.
             <table>
