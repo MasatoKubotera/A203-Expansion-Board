@@ -165,10 +165,10 @@
                     <td>Shift Register 8-bit 6V SOIC-16</td>
                 </tr>
                 <tr>
-                    <td><img src="https://assets.lcsc.com/images/lcsc/900x900/20230121_ROHM-Semicon-SML-D12M1WT86_C2922668_back.jpg" width="100px"></td>
+                    <td><img src="https://assets.lcsc.com/images/lcsc/900x900/20230102_ROHM-Semicon-SML-E12P8WT86_C126319_front.jpg" width="100px"></td>
                     <td>LED1, LED2, LED8, LED10, LED12, LED14</td>
                     <td>SML-D12M1WT86</td>
-                    <td><a href="https://jlcpcb.com/partdetail/RohmSemicon-SMLD12M1WT86/C2922668">C2922668</a></td>
+                    <td><a href="https://jlcpcb.com/partdetail/RohmSemicon-SMLE12P8WT86/C126319">C126319</a></td>
                     <td>ROHM Semicon</td>
                     <td>Standard LED SMD GREEN 2.2V 20mA 572nm 0603
                 </tr>
@@ -211,6 +211,14 @@
                     <td><a href="https://jlcpcb.com/partdetail/Yageo-RC0603FR0710KL/C98220">C98220</a></td>
                     <td>YAGEO</td>
                     <td>Thick Film Resistor SMD 10kΩ 1/10W ±1% 0603</td>
+                </tr>
+                <tr>
+                    <td><img src="https://assets.lcsc.com/images/lcsc/900x900/20180914_ALPSALPINE-SKRPACE010_C139797_front.jpg" width="100px"></td>
+                    <td>SW1</td>
+                    <td>SKRPACE010L</td>
+                    <td><a href="https://jlcpcb.com/partdetail/Alpsalpine-SKRPACE010/C139797">C139797</a></td>
+                    <td>ALPSALPINE</td>
+                    <td>Tactile Switch SMD 50mA 16V</td>
                 </tr>
             </table>
             The following components are not handled by JLCPCB and could not be attached by PCBA.
